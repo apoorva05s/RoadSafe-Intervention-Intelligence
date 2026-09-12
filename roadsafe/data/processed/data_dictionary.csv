@@ -1,0 +1,11 @@
+field,definition,status
+station,BTP traffic station,Observed
+zone,BTP zone,Observed
+subdivision,BTP subdivision,Observed
+year,Calendar year,Observed
+total_crashes,Reported total crash cases,Observed
+fatal_crashes,Reported fatal crash cases,Observed
+killed,People killed; 2024-25 estimated,Observed/Estimated
+killed_is_estimated,True when inferred from fatal crashes,Derived
+lat,Station centroid latitude,Approximate
+lng,Station centroid longitude,Approximate

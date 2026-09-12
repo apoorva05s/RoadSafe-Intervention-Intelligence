@@ -1,0 +1,44 @@
+division,rank,location,road,fatalities_2021_23,station,lat,lng
+North,1,Byatarayanapura Junction,Ballari Road,11,Bytarayanapura,13.0620,77.5940
+North,2,Sadahalli Gate,Ballari Road,10,Int. Aiport,13.1650,77.6590
+North,3,Yelahanka Air Force Station Bus Stop,Ballari Road,8,Yalahanka,13.1240,77.6070
+North,4,Before Oracle / Opp Nirman Krishna Apartments,Ballari Road,7,Hebbala,13.0470,77.5930
+North,5,After Kere Veeranjaneya Swamy Temple,Ballari Road,7,Yalahanka,13.1300,77.6100
+North,6,Jalahalli Cross,Tumkur Road,7,Jalahalli,13.0420,77.5330
+North,7,GKVK Gate Junction,Ballari Road,7,Yalahanka,13.0770,77.5780
+North,8,Yeshwantpur Metro Station,Tumkur Road,6,Yashawanthapura,13.0230,77.5510
+North,9,Pillar 110 / Before Nagasandra Metro,Tumkur Road,6,Peenya,13.0490,77.5010
+North,10,Kodigehalli Gate Bus Stop,Ballari Road,6,Bytarayanapura,13.0560,77.5960
+North,11,Hebbal Flyover,Ballari Road,6,Hebbala,13.0360,77.5970
+North,12,In front of Sparsh Hospital / Goreguntepalya Bus Stop,Tumkur Road,5,Yashawanthapura,13.0290,77.5380
+North,13,Between Pillars 28-29 / After Peenya Industry Metro,Tumkur Road,5,Peenya,13.0330,77.5230
+North,14,Hosahalli Main Rd & Ballari Rd / Hunasamaranahalli bus stop,Ballari Road,5,Chikkajala,13.1430,77.6200
+North,15,Before Kannamangala Gate Bus Stop / FOB,Ballari Road,5,Chikkajala,13.1550,77.6350
+West,1,Summanahalli Junction,Outer Ring Road,11,Kamakshipalya,12.9930,77.5220
+West,2,14th Cross Rd & Mysore Road / Before Vrushabavati Bridge,Mysore Road,6,Chamarajpet,12.9550,77.5450
+West,3,SJP Road in front of SBM Toilet,SJP Road,6,City Market,12.9620,77.5760
+West,4,Hudson Circle,Nrupathunga Road,5,Upparpet,12.9690,77.5910
+West,5,Dairy Circle,Bannerghatta Road,5,Adugodi,12.9350,77.6000
+West,6,Nayandahalli Junction,Mysore Road,5,Jnanabharathi,12.9430,77.5240
+South,1,Veerasandra Bus Stop,Hosur Road,14,Electronic City,12.8440,77.6690
+South,2,BTM Roopena Agrahara Rd & Hosur Road / Vishal Mega Mart,Hosur Road,8,Madivala,12.9010,77.6270
+South,3,PES College Bus Stop,Outer Ring Road,8,Banashankari,12.9350,77.5340
+South,4,Singasandra Lake Road & Hosur Road / Pillar 100,Hosur Road,7,Electronic City,12.8830,77.6440
+South,5,Sarakki Signal,Kanakapura Road,7,Jayanagar,12.9080,77.5740
+South,6,Chikkathogur Main Road & Hosur Road / Pillar 163,Hosur Road,6,Electronic City,12.8600,77.6570
+South,7,SKS Compound Rd & Hosur Rd / Pillar 80,Hosur Road,6,Madivala,12.8950,77.6350
+South,8,Agara Junction,Outer Ring Road,6,HSR Layout,12.9210,77.6480
+South,9,In front of Ashoka Pillar Park / Devegowda Petrol Bunk,Outer Ring Road,6,Banashankari,12.9250,77.5450
+South,10,Garvebhavipalya Junction,Hosur Road,6,Madivala,12.8920,77.6380
+South,11,In front of NTTF,Hosur Road,6,Electronic City,12.8500,77.6640
+South,12,Vajramuneshwara Gate Bus Stop,Kanakapura Road,5,Thalagattapura,12.8800,77.5480
+South,13,Singasandra,Hosur Road,5,Electronic City,12.8790,77.6460
+East,1,1st Main Road & ITPL Main Road / Before Hotel Royal Blooms,ITPL Main Road,7,Whitefield,12.9870,77.7300
+East,2,Before KR Puram bridge / Old Madras Road,Old Madras Road,7,K R Puram,13.0030,77.6900
+East,3,Diesel Loco Shed Rd & Old Madras Rd / KR Puram Govt Hospital,Old Madras Road,7,K R Puram,13.0060,77.6960
+East,4,Bhattarahalli - Basavanapura Road Junction,Old Madras Road,7,K R Puram,13.0170,77.7150
+East,5,Hennur Junction,Outer Ring Road,7,Hennuru,13.0300,77.6440
+East,6,Between Garudacharpalya Metro and ITPL Main Road,ITPL Main Road,6,Mahadevapura,12.9930,77.7050
+East,7,Between Sathya Sai Hospital & Pashmina Waterfront,Old Madras Road,6,Mahadevapura,13.0110,77.6970
+East,8,Before Varthur Police Station Junction,Varthur-Sarjapur Road,5,Whitefield,12.9410,77.7440
+East,9,Marathahalli Bridge,Outer Ring Road,5,Mahadevapura,12.9560,77.7010

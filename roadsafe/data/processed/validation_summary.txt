@@ -1,0 +1,5 @@
+station-year rows: 371
+duplicate station-year rows after aggregation: 0
+estimated killed rows: 103
+crash ML rows: 10535; invalid coordinates: 0
+No intervention dates or exposure denominators are present in source data.

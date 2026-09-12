@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>RoadSafe Bengaluru</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;height:100%;background:#0b1220;font-family:'IBM Plex Sans',sans-serif;color:#e8eef7;overflow:hidden}
+#stage{position:absolute;left:50%;top:50%;width:1280px;height:720px;transform-origin:0 0;background:#0b1220}
+.slide{position:absolute;inset:0;padding:64px 88px;box-sizing:border-box;display:none;flex-direction:column}
+.slide.active{display:flex}
+h1{font-size:60px;margin:0 0 12px;line-height:1.05}h2{font-size:40px;margin:0 0 28px;color:#ffb347}
+p,li{font-size:22px;line-height:1.45;margin:0 0 10px}small{color:#9fb0c8;font-size:16px}
+.tag{display:inline-block;background:#d7301f;color:#fff;font-weight:600;padding:4px 12px;border-radius:4px;font-size:16px;margin-bottom:22px;letter-spacing:.06em}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:36px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{background:#141d31;border:1px solid #23304d;border-radius:10px;padding:22px 26px}
+.big{font-size:64px;font-weight:700;color:#ffb347;line-height:1}.mono{font-family:'IBM Plex Mono',monospace;color:#8fd3ff;font-size:19px}
+table{border-collapse:collapse;width:100%;font-size:19px}td,th{padding:8px 12px;border-bottom:1px solid #23304d;text-align:left}th{color:#ffb347}
+.nav{position:absolute;bottom:22px;left:0;right:0;display:flex;justify-content:center;gap:10px;align-items:center}
+.dot{width:10px;height:10px;border-radius:50%;background:#354565}.dot.on{background:#ffb347}
+.ctr{position:absolute;bottom:18px;right:32px;color:#9fb0c8;font-size:15px}
+button{background:#141d31;color:#e8eef7;border:1px solid #354565;border-radius:6px;padding:6px 14px;cursor:pointer;font-size:15px}
+a{color:#8fd3ff}
+</style></head><body><div id="stage">
+
+<section class="slide active">
+<span class="tag">PS 3 · TRANSPORT · ROADSAFE INDIA</span>
+<h1>RoadSafe Bengaluru</h1>
+<h2>A Road Safety Intelligence System for 53 traffic police stations — built on statistics you can check by hand</h2>
+<div class="grid3">
+<div class="card"><div class="big">910</div><p>people killed on Bengaluru roads in 2023 — the highest since 2007, +18% vs 2022</p></div>
+<div class="card"><div class="big">59% + 31%</div><p>of the dead were motorcyclists and pedestrians. 43% died between 6 pm and 2 am. 30% were hit-and-run.</p></div>
+<div class="card"><div class="big">2,647</div><p>deaths projected 2026–28 if the current trend continues. Our question: <b>which stations, which fixes, how many lives?</b></p></div>
+</div>
+<p style="margin-top:28px"><small>Iteration 1 = statistics only (ratios, ranks, shares, linear trends) → explainable, reproducible, 3-hour build. Iteration 2 = ML on the same tables.</small></p>
+</section>
+
+<section class="slide">
+<h2>Data — all public domain, direct CSV, verified 12 Sep 2026</h2>
+<table>
+<tr><th>Source</th><th>What we use</th><th>Grain</th></tr>
+<tr><td>Bengaluru Traffic Police station-wise crashes &amp; fatalities 2018–2025 (OpenCity mirror)</td><td>fatal / non-fatal / killed / injured per station per year; city series 2007–2025</td><td>53 stations × 8 yrs</td></tr>
+<tr><td>BTP Road Safety Report 2023 (Bloomberg BIGRS)</td><td>road-user, time-of-day, day, hit-and-run, alcohol, helmet shares; 37 ranked black spots with 2021–23 deaths</td><td>city / division / spot</td></tr>
+<tr><td>MoRTH Road Accidents in India 2024 — million-plus-city tables</td><td>Bengaluru deaths by road user and by violation (87% over-speeding)</td><td>city</td></tr>
+<tr><td>Karnataka State Police FIR crash records (KSP Datathon 2024)</td><td>34,526 Bengaluru crashes 2016–23: severity, collision type, road type, junction, hit-and-run, coordinates (30%)</td><td>per crash → per station</td></tr>
+</table>
+<p style="margin-top:22px"><small>Links: data.opencity.in/dataset/bengaluru-road-crashes-data · data.opencity.in/dataset/bengaluru-traffic-police-road-safety-reports · data.opencity.in/dataset/road-accidents-in-india-2024 · KSP Datathon Google Drive folder 1iHHYRkGRhYfO-lTaEjnrkO-QQE428WLU</small></p>
+<p><small>Gaps handled: station renames/splits across years (alias map, totals reconcile to city within 1%); 2024–25 killed counts not published → estimated as fatal crashes × 1.036 and flagged.</small></p>
+</section>
+
+<section class="slide">
+<h2>Method — six required outcomes, six plain techniques</h2>
+<table>
+<tr><th>Outcome</th><th>How</th><th>Why it's defensible</th></tr>
+<tr><td>1 Risk map</td><td>Station bubbles (size = deaths, colour = score) + BTP black spots + KSP fatal-crash density</td><td>Every dot is an official count</td></tr>
+<tr><td>2 Risk score 0–100</td><td class="mono">100·[0.40·z(share of city deaths) + 0.30·z(deaths per crash) + 0.30·z(8-yr trend)]</td><td>Min-max on 3 published ratios; weights are sliders</td></tr>
+<tr><td>3 Cause analysis</td><td>Score decomposition → station fatal-crash anatomy from FIRs (pedestrian / hit-and-run / highway / junction vs city) → BTP who/when shares</td><td>Three layers, each labelled local vs city-wide</td></tr>
+<tr><td>4 Prediction</td><td>OLS trend per station, COVID years excluded, ±1.96σ; 19-yr city series</td><td>Called a baseline, not a forecast with skill</td></tr>
+<tr><td>5 Interventions</td><td>8-rule table: trigger → intervention → attributable share → effect size → cost → citation; top-3 by trigger strength</td><td>WHO · iRAP · Cochrane · MoRTH effect sizes</td></tr>
+<tr><td>6 Impact</td><td class="mono">lives = baseline₂₀₂₆₋₂₈ × attributable share × effect × ramp(0.83)</td><td>Every multiplier visible; ₹ cr per life ranks them</td></tr>
+</table>
+</section>
+
+<section class="slide">
+<h2>What the numbers say</h2>
+<div class="grid">
+<div class="card"><p><b>Where.</b> 2 Critical + 9 High stations, all on the periphery and the airport/NH corridors: <b>Int. Airport (Devanahalli) 84, Yelahanka 80</b>, Electronic City 67, Chikkajala 66, Whitefield 64, Kengeri 60, Hennur, Mico Layout, City Market, Indiranagar, Upparpet.</p>
+<p><small>Independent check: BTP's own 2023 top-5 by deaths = Yelahanka, Devanahalli, Kengeri, Whitefield, K R Puram — all in our top 12.</small></p></div>
+<div class="card"><p><b>Why.</b> Peripheral stations kill because crashes are lethal, not frequent: Int. Airport 1 in 4 crashes fatal vs 1 in 6 city-wide; 54–57% of fatal crashes at Yelahanka / Int. Airport / Electronic City are on NH or arterials. Whitefield: 54% of fatal crashes are hit-and-run. Core stations (Cubbon Park, Upparpet) score on <i>trend</i>: deaths rising 11–18%/yr from a low base.</p></div>
+<div class="card"><p><b>When.</b> 43% of deaths 18:00–02:00; Sat+Sun+Mon = 47%. <b>Who.</b> 9 in 10 dead are motorcyclists or pedestrians; correct helmet use 34%; 31% of vehicles over the limit.</p></div>
+<div class="card"><p><b>What first, city-wide.</b> Helmet compliance ≈ 279 lives and speed management ≈ 273 lives over 2026–28 if applied everywhere; pedestrian infrastructure 156; night enforcement 147; black-spot engineering 92 (concentrated in 12 stations).</p></div>
+</div>
+</section>
+
+<section class="slide">
+<h2>Act &amp; impact — station examples from the app</h2>
+<div class="grid3">
+<div class="card"><p><b>Yelahanka</b> · score 80 · baseline 2026–28 ≈ 160 deaths</p><p>1. Helmet drive — <b>≈ 20 lives</b>, ₹0.05 cr/life<br>2. Speed cameras + calming on Ballari Rd — <b>≈ 19 lives</b>, ₹0.16 cr/life<br>3. Heavy-vehicle management — ≈ 5 lives</p><p><small>Package ≈ 38 lives for ₹4.5 cr</small></p></div>
+<div class="card"><p><b>K R Puram</b> · baseline ≈ 80 deaths</p><p>1. Helmet drive — <b>≈ 11 lives</b><br>2. Speed enforcement Old Madras Rd — <b>≈ 10 lives</b><br>3. ANPR + golden-hour response (40% of fatal crashes hit-and-run) — ≈ 3 lives</p><p><small>Package ≈ 20 lives for ₹7 cr</small></p></div>
+<div class="card"><p><b>Cubbon Park</b> · baseline ≈ 7 deaths</p><p>Top-3 saves ≈ 1–2 lives; ₹1–20 cr/life. <b>The system says: not first.</b></p><p><small>Ranking by ₹ per life is what turns a map into a budget.</small></p></div>
+</div>
+<div class="card" style="margin-top:26px"><p><b>Portfolio answer:</b> each station's own top-3 package applied to the 11 Critical + High stations ≈ <b>220 lives saved in 2026–28 for ≈ ₹80 cr</b> — about 8% of the projected toll, ₹0.36 cr per life. Counterfactual bars (with vs without) are shown per station in the app.</p></div>
+</section>
+
+<section class="slide">
+<h2>Limits we state up front — and iteration 2</h2>
+<div class="grid">
+<div>
+<ul>
+<li>Unit = police jurisdiction, not road segment (only 30% of FIRs have coordinates)</li>
+<li>2024–25 deaths estimated from fatal-crash counts (× 1.036), flagged in the app</li>
+<li>Forecast = straight line on 6 annual points — a baseline for arithmetic</li>
+<li>Effect sizes = literature averages; costs = order-of-magnitude placeholders</li>
+<li>Who/when shares are city-wide; only pedestrian / hit-and-run / highway / junction shares are station-specific</li>
+<li>No exposure denominator per station (traffic, road-km) → burden-weighted score</li>
+</ul></div>
+<div class="card"><p><b>Dropped on purpose for 3 hours:</b> Bayesian spatio-temporal model, SHAP/LIME, graph recommender, SUMO simulation, KMeans, live traffic.</p>
+<p><b>Iteration 2 (ML, same tables):</b> severity model on 34k FIRs (GBM + SHAP) → segment hotspots by DBSCAN on coordinates → pooled Bayesian trends → before/after evaluation of BTP's past black-spot fixes to replace literature effect sizes with Bengaluru's own.</p>
+<p class="mono">streamlit run app.py</p></div>
+</div>
+</section>
+
+<div class="nav"><button id="prev">‹</button><span id="dots"></span><button id="next">›</button></div>
+<div class="ctr" id="ctr"></div>
+</div>
+<script>
+const s=[...document.querySelectorAll('.slide')];let i=0;const dots=document.getElementById('dots');
+s.forEach((_,k)=>{const d=document.createElement('span');d.className='dot';dots.appendChild(d)});
+function show(n){i=(n+s.length)%s.length;s.forEach((x,k)=>x.classList.toggle('active',k===i));[...dots.children].forEach((d,k)=>d.classList.toggle('on',k===i));document.getElementById('ctr').textContent=(i+1)+' / '+s.length}
+document.getElementById('prev').onclick=()=>show(i-1);document.getElementById('next').onclick=()=>show(i+1);
+addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key===' ')show(i+1);if(e.key==='ArrowLeft')show(i-1);if(e.key==='Escape')parent.postMessage({type:'close-fullscreen'},'*')});
+addEventListener('message',e=>{if(e.data&&e.data.type==='navigate')show(e.data.direction==='next'?i+1:i-1)});
+let tx=0;addEventListener('touchstart',e=>tx=e.touches[0].clientX);addEventListener('touchend',e=>{const d=e.changedTouches[0].clientX-tx;if(Math.abs(d)>50)show(d<0?i+1:i-1)});
+function fit(){const k=Math.min(innerWidth/1280,innerHeight/720);const st=document.getElementById('stage');st.style.transform=`translate(-50%,-50%) scale(${k})`;st.style.transformOrigin='center'}
+addEventListener('resize',fit);fit();show(0);
+</script></body></html>

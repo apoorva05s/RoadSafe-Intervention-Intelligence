@@ -1,0 +1,372 @@
+Station,year,fatal,killed,injured,total,killed_est
+Adugodi,2018,3,3.0,53.0,50,False
+Adugodi,2019,6,6.0,55.0,62,False
+Adugodi,2020,2,2.0,30.0,29,False
+Adugodi,2021,2,8.0,20.0,19,False
+Adugodi,2022,6,6.0,41.0,42,False
+Adugodi,2023,10,10.0,67.0,63,False
+Adugodi,2024,5,5.2,,50,True
+Adugodi,2025,7,7.3,,66,True
+Airport,2018,24,26.0,77.0,109,False
+Airport,2019,16,16.0,59.0,84,False
+Airport,2020,19,19.0,40.0,64,False
+Airport,2021,34,35.0,113.0,143,False
+Airport,2022,18,18.0,65.0,83,False
+Airport,2023,17,17.0,80.0,97,False
+Airport,2024,22,22.8,,96,True
+Airport,2025,21,21.8,,74,True
+Ashokanagar,2018,4,4.0,55.0,55,False
+Ashokanagar,2019,6,6.0,55.0,64,False
+Ashokanagar,2020,5,7.0,37.0,40,False
+Ashokanagar,2021,5,5.0,48.0,42,False
+Ashokanagar,2022,4,4.0,29.0,35,False
+Ashokanagar,2023,6,6.0,30.0,38,False
+Ashokanagar,2024,4,4.1,,35,True
+Ashokanagar,2025,14,14.5,,40,True
+Banasawadi,2018,21,21.0,133.0,129,False
+Banasawadi,2019,19,19.0,106.0,129,False
+Banasawadi,2020,15,16.0,68.0,91,False
+Banasawadi,2021,20,21.0,81.0,99,False
+Banasawadi,2022,22,22.0,118.0,116,False
+Banasawadi,2023,14,15.0,82.0,91,False
+Banasawadi,2024,6,6.2,,65,True
+Banasawadi,2025,10,10.4,,101,True
+Banashankari,2018,8,8.0,83.0,100,False
+Banashankari,2019,7,7.0,98.0,103,False
+Banashankari,2020,12,12.0,54.0,67,False
+Banashankari,2021,13,13.0,58.0,70,False
+Banashankari,2022,16,17.0,55.0,67,False
+Banashankari,2023,15,15.0,66.0,90,False
+Banashankari,2024,11,11.4,,79,True
+Banashankari,2025,12,12.4,,85,True
+Basavanagudi,2018,3,3.0,60.0,70,False
+Basavanagudi,2019,6,6.0,56.0,60,False
+Basavanagudi,2020,6,6.0,42.0,52,False
+Basavanagudi,2021,5,5.0,31.0,48,False
+Basavanagudi,2022,7,7.0,59.0,85,False
+Basavanagudi,2023,3,3.0,98.0,102,False
+Basavanagudi,2024,8,8.3,,90,True
+Basavanagudi,2025,6,6.2,,82,True
+Bellanduru,2023,9,9.0,34.0,43,False
+Bellanduru,2024,14,14.5,,57,True
+Bellanduru,2025,11,11.4,,76,True
+Bytarayanapura,2018,17,18.0,104.0,117,False
+Bytarayanapura,2019,18,18.0,101.0,126,False
+Bytarayanapura,2020,19,20.0,68.0,106,False
+Bytarayanapura,2021,21,21.0,90.0,121,False
+Bytarayanapura,2022,39,40.0,110.0,161,False
+Bytarayanapura,2023,19,19.0,125.0,182,False
+Bytarayanapura,2024,19,19.7,,146,True
+Bytarayanapura,2025,22,22.8,,146,True
+Chamarajpet,2018,4,4.0,38.0,42,False
+Chamarajpet,2019,7,7.0,37.0,41,False
+Chamarajpet,2020,6,6.0,25.0,29,False
+Chamarajpet,2021,6,6.0,24.0,28,False
+Chamarajpet,2022,7,7.0,46.0,51,False
+Chamarajpet,2023,4,4.0,22.0,29,False
+Chamarajpet,2024,0,0.0,,15,True
+Chamarajpet,2025,4,4.1,,17,True
+Chickpet,2018,10,10.0,48.0,54,False
+Chickpet,2019,12,12.0,62.0,70,False
+Chickpet,2020,6,6.0,28.0,36,False
+Chickpet,2021,6,6.0,21.0,30,False
+Chickpet,2022,7,7.0,32.0,40,False
+Chickpet,2023,9,10.0,31.0,46,False
+Chickpet,2024,8,8.3,,41,True
+Chickpet,2025,3,3.1,,18,True
+Chikkabanavara,2024,16,16.6,,90,True
+Chikkabanavara,2025,13,13.5,,117,True
+Chikkajala,2018,38,39.0,151.0,152,False
+Chikkajala,2019,41,44.0,191.0,195,False
+Chikkajala,2020,30,31.0,172.0,182,False
+Chikkajala,2021,32,40.0,191.0,189,False
+Chikkajala,2022,42,42.0,144.0,174,False
+Chikkajala,2023,36,39.0,129.0,137,False
+Chikkajala,2024,32,33.1,,140,True
+Chikkajala,2025,48,49.7,,214,True
+City Market,2018,2,2.0,17.0,20,False
+City Market,2019,3,3.0,16.0,20,False
+City Market,2020,3,3.0,6.0,9,False
+City Market,2021,2,2.0,4.0,7,False
+City Market,2022,3,3.0,14.0,18,False
+City Market,2023,9,9.0,28.0,32,False
+City Market,2024,11,11.4,,42,True
+City Market,2025,3,3.1,,31,True
+Cubbon Park,2018,2,2.0,53.0,54,False
+Cubbon Park,2019,5,5.0,56.0,51,False
+Cubbon Park,2020,2,2.0,28.0,26,False
+Cubbon Park,2021,4,4.0,35.0,38,False
+Cubbon Park,2022,4,5.0,31.0,37,False
+Cubbon Park,2023,2,2.0,41.0,56,False
+Cubbon Park,2024,6,6.2,,48,True
+Cubbon Park,2025,0,0.0,,50,True
+Electronic City,2018,27,29.0,115.0,160,False
+Electronic City,2019,32,33.0,122.0,170,False
+Electronic City,2020,31,31.0,109.0,155,False
+Electronic City,2021,27,30.0,116.0,129,False
+Electronic City,2022,26,26.0,128.0,139,False
+Electronic City,2023,38,39.0,171.0,196,False
+Electronic City,2024,42,43.5,,178,True
+Electronic City,2025,40,41.4,,178,True
+H.Grounds,2018,2,2.0,51.0,60,False
+H.Grounds,2019,5,5.0,54.0,53,False
+H.Grounds,2020,6,6.0,34.0,45,False
+H.Grounds,2021,2,2.0,38.0,38,False
+H.Grounds,2022,4,4.0,33.0,49,False
+H.Grounds,2023,6,6.0,47.0,56,False
+H.Grounds,2024,7,7.3,,55,True
+H.Grounds,2025,2,2.1,,51,True
+HSR Layout,2018,17,17.0,98.0,100,False
+HSR Layout,2019,25,25.0,109.0,106,False
+HSR Layout,2020,15,16.0,86.0,75,False
+HSR Layout,2021,15,15.0,49.0,56,False
+HSR Layout,2022,14,14.0,56.0,64,False
+HSR Layout,2023,16,17.0,56.0,56,False
+HSR Layout,2024,12,12.4,,61,True
+HSR Layout,2025,12,12.4,,64,True
+Halasooru,2018,12,12.0,67.0,81,False
+Halasooru,2019,14,15.0,84.0,102,False
+Halasooru,2020,14,14.0,41.0,51,False
+Halasooru,2021,19,19.0,35.0,47,False
+Halasooru,2022,13,14.0,80.0,76,False
+Halasooru,2023,11,11.0,48.0,67,False
+Halasooru,2024,12,12.4,,61,True
+Halasooru,2025,8,8.3,,43,True
+Hebbala,2018,32,33.0,113.0,138,False
+Hebbala,2019,32,33.0,118.0,141,False
+Hebbala,2020,28,28.0,99.0,109,False
+Hebbala,2021,18,18.0,99.0,115,False
+Hebbala,2022,29,30.0,88.0,101,False
+Hebbala,2023,24,24.0,118.0,144,False
+Hebbala,2024,29,30.0,,177,True
+Hebbala,2025,24,24.9,,164,True
+Hennuru,2023,23,24.0,84.0,103,False
+Hennuru,2024,32,33.1,,127,True
+Hennuru,2025,22,22.8,,88,True
+Hulimavu,2018,30,33.0,118.0,136,False
+Hulimavu,2019,15,15.0,104.0,123,False
+Hulimavu,2020,16,16.0,74.0,80,False
+Hulimavu,2021,6,6.0,71.0,74,False
+Hulimavu,2022,10,11.0,93.0,113,False
+Hulimavu,2023,16,16.0,117.0,108,False
+Hulimavu,2024,10,10.4,,71,True
+Hulimavu,2025,24,24.9,,90,True
+Indiranagar,2018,11,11.0,60.0,74,False
+Indiranagar,2019,14,14.0,92.0,108,False
+Indiranagar,2020,9,9.0,45.0,49,False
+Indiranagar,2021,5,5.0,28.0,32,False
+Indiranagar,2022,13,13.0,40.0,48,False
+Indiranagar,2023,12,12.0,62.0,85,False
+Indiranagar,2024,21,21.8,,119,True
+Indiranagar,2025,24,24.9,,98,True
+Int. Aiport,2018,39,45.0,189.0,161,False
+Int. Aiport,2019,33,37.0,197.0,160,False
+Int. Aiport,2020,25,27.0,133.0,113,False
+Int. Aiport,2021,23,24.0,209.0,168,False
+Int. Aiport,2022,30,31.0,164.0,154,False
+Int. Aiport,2023,59,61.0,215.0,232,False
+Int. Aiport,2024,60,62.2,,240,True
+Int. Aiport,2025,42,43.5,,146,True
+JP Nagar,2025,3,3.1,,43,True
+Jalahalli,2018,21,21.0,158.0,174,False
+Jalahalli,2019,21,22.0,104.0,107,False
+Jalahalli,2020,19,20.0,63.0,72,False
+Jalahalli,2021,22,23.0,80.0,90,False
+Jalahalli,2022,15,16.0,75.0,80,False
+Jalahalli,2023,28,29.0,84.0,102,False
+Jalahalli,2024,15,15.5,,69,True
+Jalahalli,2025,8,8.3,,56,True
+Jayanagar,2018,9,9.0,71.0,81,False
+Jayanagar,2019,16,16.0,63.0,77,False
+Jayanagar,2020,15,15.0,46.0,54,False
+Jayanagar,2021,10,10.0,55.0,60,False
+Jayanagar,2022,8,8.0,89.0,93,False
+Jayanagar,2023,13,13.0,77.0,90,False
+Jayanagar,2024,12,12.4,,85,True
+Jayanagar,2025,11,11.4,,66,True
+Jnanabharathi,2024,22,22.8,,141,True
+Jnanabharathi,2025,18,18.6,,158,True
+K G Halli,2018,4,4.0,24.0,23,False
+K G Halli,2019,7,7.0,21.0,29,False
+K G Halli,2020,3,3.0,22.0,20,False
+K G Halli,2021,5,5.0,18.0,22,False
+K G Halli,2022,7,7.0,24.0,30,False
+K G Halli,2023,6,6.0,39.0,40,False
+K G Halli,2024,7,7.3,,54,True
+K G Halli,2025,11,11.4,,48,True
+K R Puram,2018,42,43.0,221.0,283,False
+K R Puram,2019,49,50.0,230.0,269,False
+K R Puram,2020,48,50.0,129.0,184,False
+K R Puram,2021,17,18.0,48.0,64,False
+K R Puram,2022,39,39.0,191.0,205,False
+K R Puram,2023,41,42.0,217.0,254,False
+K R Puram,2024,34,35.2,,241,True
+K R Puram,2025,34,35.2,,267,True
+K S Layout,2018,33,35.0,141.0,190,False
+K S Layout,2019,26,28.0,168.0,192,False
+K S Layout,2020,37,39.0,130.0,159,False
+K S Layout,2021,45,48.0,129.0,140,False
+K S Layout,2022,34,36.0,159.0,175,False
+K S Layout,2023,18,18.0,137.0,154,False
+K S Layout,2024,20,20.7,,110,True
+K S Layout,2025,9,9.3,,77,True
+Kamakshipalya,2018,22,22.0,202.0,209,False
+Kamakshipalya,2019,25,27.0,207.0,219,False
+Kamakshipalya,2020,24,26.0,154.0,159,False
+Kamakshipalya,2021,33,34.0,117.0,157,False
+Kamakshipalya,2022,49,50.0,146.0,200,False
+Kamakshipalya,2023,40,41.0,202.0,241,False
+Kamakshipalya,2024,18,18.6,,144,True
+Kamakshipalya,2025,23,23.8,,193,True
+Kengeri,2018,24,25.0,198.0,161,False
+Kengeri,2019,26,27.0,178.0,171,False
+Kengeri,2020,22,24.0,88.0,86,False
+Kengeri,2021,22,24.0,82.0,107,False
+Kengeri,2022,34,36.0,108.0,121,False
+Kengeri,2023,58,59.0,237.0,279,False
+Kengeri,2024,31,32.1,,177,True
+Kengeri,2025,26,26.9,,200,True
+Kodigehalli,2025,13,13.5,,110,True
+Madivala,2018,18,18.0,69.0,82,False
+Madivala,2019,17,18.0,65.0,84,False
+Madivala,2020,11,11.0,35.0,45,False
+Madivala,2021,8,8.0,51.0,54,False
+Madivala,2022,13,13.0,30.0,45,False
+Madivala,2023,14,14.0,53.0,73,False
+Madivala,2024,21,21.8,,102,True
+Madivala,2025,15,15.5,,90,True
+Magadi Road,2018,1,1.0,31.0,35,False
+Magadi Road,2019,6,6.0,49.0,47,False
+Magadi Road,2020,4,4.0,18.0,25,False
+Magadi Road,2021,4,4.0,23.0,28,False
+Magadi Road,2022,4,4.0,17.0,20,False
+Magadi Road,2023,7,7.0,42.0,50,False
+Magadi Road,2024,4,4.1,,40,True
+Magadi Road,2025,2,2.1,,39,True
+Mahadevapura,2023,11,12.0,72.0,93,False
+Mahadevapura,2024,17,17.6,,106,True
+Mahadevapura,2025,24,24.9,,129,True
+Malleshwaram,2018,5,5.0,85.0,101,False
+Malleshwaram,2019,7,7.0,111.0,90,False
+Malleshwaram,2020,8,8.0,34.0,45,False
+Malleshwaram,2021,6,6.0,32.0,36,False
+Malleshwaram,2022,6,6.0,45.0,56,False
+Malleshwaram,2023,18,18.0,88.0,99,False
+Malleshwaram,2024,10,10.4,,66,True
+Malleshwaram,2025,6,6.2,,58,True
+Micolayout,2018,6,6.0,58.0,64,False
+Micolayout,2019,12,12.0,73.0,84,False
+Micolayout,2020,10,10.0,42.0,61,False
+Micolayout,2021,9,9.0,60.0,70,False
+Micolayout,2022,11,11.0,44.0,53,False
+Micolayout,2023,14,14.0,71.0,88,False
+Micolayout,2024,23,23.8,,96,True
+Micolayout,2025,15,15.5,,72,True
+Peenya,2018,23,23.0,213.0,227,False
+Peenya,2019,33,34.0,185.0,216,False
+Peenya,2020,16,16.0,116.0,126,False
+Peenya,2021,22,22.0,113.0,125,False
+Peenya,2022,32,33.0,135.0,178,False
+Peenya,2023,32,32.0,191.0,192,False
+Peenya,2024,26,26.9,,137,True
+Peenya,2025,19,19.7,,167,True
+Pulikeshinagar,2018,5,5.0,13.0,21,False
+Pulikeshinagar,2019,10,10.0,17.0,30,False
+Pulikeshinagar,2020,8,8.0,9.0,19,False
+Pulikeshinagar,2021,10,10.0,7.0,19,False
+Pulikeshinagar,2022,4,4.0,5.0,9,False
+Pulikeshinagar,2023,4,4.0,24.0,27,False
+Pulikeshinagar,2024,4,4.1,,18,True
+Pulikeshinagar,2025,10,10.4,,19,True
+R T Nagar,2018,7,8.0,81.0,94,False
+R T Nagar,2019,11,12.0,56.0,74,False
+R T Nagar,2020,9,10.0,41.0,59,False
+R T Nagar,2021,10,10.0,50.0,65,False
+R T Nagar,2022,11,11.0,50.0,67,False
+R T Nagar,2023,8,8.0,63.0,82,False
+R T Nagar,2024,7,7.3,,61,True
+R T Nagar,2025,7,7.3,,33,True
+Rajajinagar,2018,14,14.0,66.0,71,False
+Rajajinagar,2019,10,10.0,51.0,55,False
+Rajajinagar,2020,12,12.0,44.0,48,False
+Rajajinagar,2021,14,14.0,58.0,66,False
+Rajajinagar,2022,25,27.0,77.0,101,False
+Rajajinagar,2023,16,17.0,82.0,102,False
+Rajajinagar,2024,11,11.4,,99,True
+Rajajinagar,2025,12,12.4,,91,True
+S.S.Nagar,2018,8,8.0,74.0,86,False
+S.S.Nagar,2019,6,6.0,54.0,58,False
+S.S.Nagar,2020,8,8.0,61.0,59,False
+S.S.Nagar,2021,4,4.0,51.0,64,False
+S.S.Nagar,2022,13,13.0,50.0,68,False
+S.S.Nagar,2023,8,8.0,33.0,47,False
+S.S.Nagar,2024,5,5.2,,53,True
+S.S.Nagar,2025,4,4.1,,62,True
+Shivajinagar,2018,2,2.0,23.0,25,False
+Shivajinagar,2019,7,7.0,22.0,34,False
+Shivajinagar,2020,1,1.0,10.0,15,False
+Shivajinagar,2021,3,3.0,5.0,11,False
+Shivajinagar,2022,4,4.0,25.0,25,False
+Shivajinagar,2023,6,6.0,19.0,27,False
+Shivajinagar,2024,4,4.1,,34,True
+Shivajinagar,2025,1,1.0,,18,True
+Thalagattapura,2023,22,26.0,69.0,89,False
+Thalagattapura,2024,20,20.7,,124,True
+Thalagattapura,2025,28,29.0,,151,True
+U.Gate,2018,4,4.0,40.0,47,False
+U.Gate,2019,2,2.0,49.0,53,False
+U.Gate,2020,4,5.0,27.0,33,False
+U.Gate,2021,3,3.0,26.0,25,False
+U.Gate,2022,5,5.0,27.0,35,False
+U.Gate,2023,7,8.0,44.0,54,False
+U.Gate,2024,6,6.2,,68,True
+U.Gate,2025,5,5.2,,67,True
+Upparpet,2018,6,6.0,41.0,46,False
+Upparpet,2019,10,10.0,37.0,47,False
+Upparpet,2020,2,2.0,15.0,17,False
+Upparpet,2021,4,4.0,18.0,21,False
+Upparpet,2022,3,3.0,25.0,27,False
+Upparpet,2023,9,9.0,18.0,29,False
+Upparpet,2024,11,11.4,,46,True
+Upparpet,2025,11,11.4,,47,True
+VV Puram,2025,1,1.0,,19,True
+Vijayanagar,2018,7,7.0,110.0,131,False
+Vijayanagar,2019,9,9.0,111.0,122,False
+Vijayanagar,2020,8,8.0,76.0,92,False
+Vijayanagar,2021,8,8.0,96.0,94,False
+Vijayanagar,2022,9,9.0,83.0,84,False
+Vijayanagar,2023,16,16.0,66.0,79,False
+Vijayanagar,2024,6,6.2,,58,True
+Vijayanagar,2025,12,12.4,,77,True
+W.Garden,2018,6,6.0,44.0,52,False
+W.Garden,2019,11,11.0,60.0,74,False
+W.Garden,2020,3,3.0,29.0,37,False
+W.Garden,2021,9,9.0,55.0,58,False
+W.Garden,2022,6,7.0,51.0,54,False
+W.Garden,2023,6,6.0,45.0,65,False
+W.Garden,2024,6,6.2,,59,True
+W.Garden,2025,8,8.3,,40,True
+Whitefield,2018,24,24.0,164.0,174,False
+Whitefield,2019,48,48.0,167.0,192,False
+Whitefield,2020,21,22.0,99.0,113,False
+Whitefield,2021,24,24.0,83.0,91,False
+Whitefield,2022,39,39.0,127.0,166,False
+Whitefield,2023,43,44.0,163.0,223,False
+Whitefield,2024,44,45.6,,189,True
+Whitefield,2025,27,28.0,,95,True
+Yalahanka,2018,46,48.0,189.0,221,False
+Yalahanka,2019,44,44.0,287.0,260,False
+Yalahanka,2020,40,45.0,169.0,195,False
+Yalahanka,2021,48,52.0,151.0,172,False
+Yalahanka,2022,53,56.0,154.0,204,False
+Yalahanka,2023,58,63.0,222.0,236,False
+Yalahanka,2024,56,58.0,,242,True
+Yalahanka,2025,54,55.9,,257,True
+Yashawanthapura,2018,20,20.0,130.0,151,False
+Yashawanthapura,2019,17,19.0,113.0,132,False
+Yashawanthapura,2020,20,20.0,84.0,105,False
+Yashawanthapura,2021,13,14.0,59.0,79,False
+Yashawanthapura,2022,13,13.0,55.0,74,False
+Yashawanthapura,2023,21,22.0,82.0,106,False
+Yashawanthapura,2024,25,25.9,,98,True
+Yashawanthapura,2025,18,18.6,,102,True

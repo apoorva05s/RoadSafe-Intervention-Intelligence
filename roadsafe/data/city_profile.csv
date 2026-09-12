@@ -1,0 +1,33 @@
+group,category,share,note,source
+road_user,Motorcyclists,0.59,542 of 921 deaths,BTP Road Safety Report 2023 p.10
+road_user,Pedestrians,0.31,282 of 921 deaths,BTP Road Safety Report 2023 p.10
+road_user,Cars/LMV occupants,0.04,MoRTH 2024 Bengaluru row: 41 of 894,MoRTH Road Accidents in India 2024 city table
+road_user,Auto-rickshaw,0.025,MoRTH 2024 Bengaluru row: 22 of 894,MoRTH Road Accidents in India 2024 city table
+road_user,Cyclists,0.015,MoRTH 2024 Bengaluru row: 13 of 894,MoRTH Road Accidents in India 2024 city table
+road_user,Others,0.02,residual,derived
+time_band,06:00-12:00,0.20,derived from BTP fig-12 (43% in 18-02),BTP Road Safety Report 2023 p.12
+time_band,12:00-18:00,0.22,derived from BTP fig-12,BTP Road Safety Report 2023 p.12
+time_band,18:00-22:00,0.30,peak band,BTP Road Safety Report 2023 p.12
+time_band,22:00-02:00,0.13,second peak,BTP Road Safety Report 2023 p.12
+time_band,02:00-06:00,0.15,,BTP Road Safety Report 2023 p.12
+day,Sunday,0.17,least safe day,BTP Road Safety Report 2023 p.12
+day,Saturday,0.15,,BTP Road Safety Report 2023 p.12
+day,Monday,0.15,Sat+Sun+Mon = 47%,BTP Road Safety Report 2023 p.12
+day,Tuesday,0.13,,derived
+day,Wednesday,0.13,,derived
+day,Thursday,0.13,,derived
+day,Friday,0.14,,derived
+violation,Over-speeding,0.87,776 of 894 deaths attributed,MoRTH 2024 Bengaluru violation row
+violation,Drunk driving,0.05,45 of 894 (BTP report says 2.5% observed; underreported),MoRTH 2024 / BTP p.34
+violation,Wrong side,0.017,15 of 894,MoRTH 2024
+violation,Red light / phone,0.005,4 of 894,MoRTH 2024
+violation,Others,0.06,54 of 894,MoRTH 2024
+crash_type,Hit-and-run,0.30,North division highest count (83),BTP Road Safety Report 2023 p.13
+crash_type,Single-vehicle,0.31,289 of 921; 85% motorcyclists; 57% fixed objects,BTP Road Safety Report 2023 p.34
+behaviour,Correct helmet use,0.34,observed among motorcycle occupants,BTP Road Safety Report 2023 p.4
+behaviour,Seatbelt use (all occupants),0.46,drivers 66%; rear 1%,BTP Road Safety Report 2023 p.4
+behaviour,Vehicles exceeding speed limit,0.31,37% on expressways; avg 62 km/h,BTP Road Safety Report 2023 p.4
+division_share,North,0.34,over one-third of fatalities,BTP Road Safety Report 2023 p.4
+division_share,West,0.23,,BTP Road Safety Report 2023 p.4
+division_share,South,0.22,,BTP Road Safety Report 2023 p.4
+division_share,East,0.21,residual,derived
